@@ -92,3 +92,14 @@ acceder al último elemento sin problemas.
 
 En la segunda pasada (x = 1), comparas hasta el índice 2 (que es 5 - 1 - 1), lo que significa 
 que ahora puedes ignorar el último elemento (ya ordenado)
+
+
+### Comparación y Condición de Intercambio
+
+  if (arreglo[y] > arreglo[y + 1]) 
+
+Descripción:
+
+Compara el elemento actual (arreglo[y]) con el siguiente (arreglo[y + 1]). Si el 
+elemento actual es mayor, significa que están en el orden incorrecto.
+
