@@ -10,3 +10,6 @@ La solución solo plantea en sí el algoritmo sin necesidad de hacer los demás 
 Descripción:
 
 Inicia un bucle que itera desde 0 hasta arreglo.length - 1. La variable x controla cuántas pasadas se han realizado sobre el arreglo.
+
+
+
