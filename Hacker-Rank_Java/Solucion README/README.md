@@ -103,3 +103,18 @@ Descripción:
 Compara el elemento actual (arreglo[y]) con el siguiente (arreglo[y + 1]). Si el 
 elemento actual es mayor, significa que están en el orden incorrecto.
 
+### Intercambio de Elementos
+
+                    int temp = arreglo[y];
+                    arreglo[y] = arreglo[y + 1];
+                    arreglo[y + 1] = temp;
+
+Descripción:
+
+- Se utiliza una variable temporal (temp) para almacenar temporalmente el valor 
+del elemento actual.
+
+- El elemento actual se reemplaza con el siguiente elemento.
+
+- El siguiente elemento se reemplaza con el valor almacenado en temp, completando
+  así el intercambio.
