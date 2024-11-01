@@ -149,3 +149,25 @@ for (int numero : numeros) {
 
 
 En este ejemplo, cada elemento del array (numero) se imprime directamente, simplificando el código.
+
+
+## Arrays.toString()
+
+En Java, cuando quieres imprimir el contenido de un arreglo (array) directamente usando System.out.println(), obtendrás una representación por defecto del objeto, que no es legible. Esto sucede porque el método toString() de la clase Object, que es la clase base de todos los objetos en Java, devuelve una cadena que contiene el nombre de la clase seguido de su hashcode, no el contenido del arreglo.
+
+Aquí te explico por qué necesitas usar Arrays.toString():
+
+##### Representación por Defecto:
+
+
+Si intentas imprimir un arreglo directamente, como en System.out.println(numeros);, lo que realmente se imprimirá es algo como [I@6d06d69c, que es la representación por defecto de un arreglo en Java. Este formato no es útil para ver los elementos del arreglo.
+
+##### Arrays.toString(): 
+
+Al usar Arrays.toString(numeros), le estás pidiendo a la clase Arrays que devuelva una representación legible del arreglo en forma de cadena. Este método recorre el arreglo y devuelve una cadena que incluye todos los elementos, separados por comas y encerrados entre corchetes, por ejemplo: [1, 9, 23, 4, 55, 100, 1, 1, 23].
+
+##### Conveniencia: 
+
+Arrays.toString() hace que sea fácil y conveniente imprimir arreglos sin necesidad de iterar manualmente sobre sus elementos. Además, es una forma estandarizada de mostrar la información de un arreglo.
+
+Por lo tanto, al usar Arrays.toString(numeros), obtienes una representación más informativa y fácil de entender del contenido del arreglo.
