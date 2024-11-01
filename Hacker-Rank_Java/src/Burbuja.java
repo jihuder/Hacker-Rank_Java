@@ -7,8 +7,9 @@ public class Burbuja {
             for (int y = 0; y < arreglo.length - i - 1; y++) {
 
                 if (arreglo[y] > arreglo[y + 1]) {
-
-
+                    int temp = arreglo[y];
+                    arreglo[y] = arreglo[y + 1];
+                    arreglo[y + 1] = temp;
                 }
             }
 

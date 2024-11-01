@@ -10,4 +10,5 @@
 8) (Agregar | Segundo Bucle (Comparación de Elementos)) -V 1: 36d6509
 9) (Crear | Comparación y Condición de Intercambio) -V 0.1: aef3d20
 10) (Agregar | Comparación y Condición de Intercambio) -V 1: c1cfeb7
-11) (Crear | Intercambio de Elementos) -V 0.1:
+11) (Crear | Intercambio de Elementos) -V 0.1:3aecd18
+12) (Agregar | Intercambio de Elementos) -V 0.1:
